@@ -4,13 +4,103 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "글 작성 할 수 있음"
+  },
+  {
+    "objectID": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html",
+    "href": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html",
+    "title": "01. Introduction",
+    "section": "",
+    "text": "What is a stochastic process?",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes",
+      "01. Introduction"
+    ]
+  },
+  {
+    "objectID": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#main-question",
+    "href": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#main-question",
+    "title": "01. Introduction",
+    "section": "",
+    "text": "What is a stochastic process?",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes",
+      "01. Introduction"
+    ]
+  },
+  {
+    "objectID": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#definition",
+    "href": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#definition",
+    "title": "01. Introduction",
+    "section": "Definition",
+    "text": "Definition\nWrite the main definition here.",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes",
+      "01. Introduction"
+    ]
+  },
+  {
+    "objectID": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#intuition",
+    "href": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#intuition",
+    "title": "01. Introduction",
+    "section": "Intuition",
+    "text": "Intuition\nWrite your intuitive explanation here.",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes",
+      "01. Introduction"
+    ]
+  },
+  {
+    "objectID": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#example",
+    "href": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#example",
+    "title": "01. Introduction",
+    "section": "Example",
+    "text": "Example\nWrite an example here.",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes",
+      "01. Introduction"
+    ]
+  },
+  {
+    "objectID": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#what-i-learned",
+    "href": "posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/index.html#what-i-learned",
+    "title": "01. Introduction",
+    "section": "What I Learned",
+    "text": "What I Learned\nWrite the key idea that became clearer.",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes",
+      "01. Introduction"
+    ]
+  },
+  {
+    "objectID": "junior-summer/lab-internship/essentials-of-stochastic-processes.html",
+    "href": "junior-summer/lab-internship/essentials-of-stochastic-processes.html",
+    "title": "Essentials of Stochastic Processes",
+    "section": "",
+    "text": "These notes were written while studying\nEssentials of Stochastic Processes during my junior summer lab internship.\nThe purpose of these notes is to explain the main ideas in my own words, work through examples, and record questions that arose during my study.\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Lab Internship",
+      "Essentials of Stochastic Processes"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mk World",
     "section": "",
-    "text": "MK\n\n\n\n\n\nNo matching items"
+    "text": "01. Introduction\n\n\n\nStochastic Processes\n\n\n\nAn introduction to stochastic processes.\n\n\n\n\n\nJul 26, 2026\n\n\nMK\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -10,6 +10,44 @@
 <atom:link href="https://mkw0rld.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Life, Math, and etc.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 25 Jul 2026 15:26:59 GMT</lastBuildDate>
+<lastBuildDate>Sat, 25 Jul 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>01. Introduction</title>
+  <dc:creator>MK </dc:creator>
+  <link>https://mkw0rld.github.io/posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="main-question" class="level2">
+<h2 class="anchored" data-anchor-id="main-question">Main Question</h2>
+<p>What is a stochastic process?</p>
+</section>
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<p>Write the main definition here.</p>
+</section>
+<section id="intuition" class="level2">
+<h2 class="anchored" data-anchor-id="intuition">Intuition</h2>
+<p>Write your intuitive explanation here.</p>
+</section>
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<p>Write an example here.</p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>Write the key idea that became clearer.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Stochastic Processes</category>
+  <guid>https://mkw0rld.github.io/posts/junior-summer/lab-internship/essentials-of-stochastic-processes/01-introduction/</guid>
+  <pubDate>Sat, 25 Jul 2026 15:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>
