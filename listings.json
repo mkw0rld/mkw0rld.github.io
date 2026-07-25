@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Junior-summer/index.html",
       "/posts/post-with-code/index.html",
       "/posts/Test/index.html",
       "/posts/welcome/index.html"
