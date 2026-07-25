@@ -7,94 +7,10 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html",
-    "href": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html",
-    "title": "Why Two-Step Transition Probabilities Form P²",
-    "section": "",
-    "text": "Let (P) be the transition matrix of a Markov chain.\nWhy does the ((i,j))-entry of (P^2) represent the probability of moving from state (i) to state (j) in two steps?"
-  },
-  {
-    "objectID": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#the-question",
-    "href": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#the-question",
-    "title": "Why Two-Step Transition Probabilities Form P²",
-    "section": "",
-    "text": "Let (P) be the transition matrix of a Markov chain.\nWhy does the ((i,j))-entry of (P^2) represent the probability of moving from state (i) to state (j) in two steps?"
-  },
-  {
-    "objectID": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#one-step-transition-probabilities",
-    "href": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#one-step-transition-probabilities",
-    "title": "Why Two-Step Transition Probabilities Form P²",
-    "section": "One-step transition probabilities",
-    "text": "One-step transition probabilities\nThe one-step transition probability is defined by\n\\[\np(i,j)\n=\nP(X_{n+1}=j \\mid X_n=i).\n\\]\nThis is the probability that the chain moves from state (i) to state (j) in one step."
-  },
-  {
-    "objectID": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#two-step-transition-probabilities",
-    "href": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#two-step-transition-probabilities",
-    "title": "Why Two-Step Transition Probabilities Form P²",
-    "section": "Two-step transition probabilities",
-    "text": "Two-step transition probabilities\nSuppose that the chain begins at state (i) and reaches state (j) after two steps.\nAt the intermediate step, the chain may visit any state (k). Therefore,\n\\[\nP(X_{n+2}=j \\mid X_n=i)\n=\n\\sum_{k\\in S}\nP(X_{n+2}=j, X_{n+1}=k \\mid X_n=i).\n\\]\nUsing the Markov property,\n\\[\nP(X_{n+2}=j \\mid X_{n+1}=k, X_n=i)\n=\nP(X_{n+2}=j \\mid X_{n+1}=k).\n\\]\nHence,\n\\[\np^{(2)}(i,j)\n=\n\\sum_{k\\in S}p(i,k)p(k,j).\n\\]"
-  },
-  {
-    "objectID": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#connection-with-matrix-multiplication",
-    "href": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#connection-with-matrix-multiplication",
-    "title": "Why Two-Step Transition Probabilities Form P²",
-    "section": "Connection with matrix multiplication",
-    "text": "Connection with matrix multiplication\nBy the definition of matrix multiplication,\n\\[\n(P^2)_{ij}\n=\n\\sum_{k\\in S}P_{ik}P_{kj}.\n\\]\nSince (P_{ik}=p(i,k)) and (P_{kj}=p(k,j)), we obtain\n\\[\n\\boxed{p^{(2)}(i,j)=(P^2)_{ij}}.\n\\]"
-  },
-  {
-    "objectID": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#intuition",
-    "href": "posts/Junior-summer/Lab internship/Essentials of Stochastic Processes/index.html#intuition",
-    "title": "Why Two-Step Transition Probabilities Form P²",
-    "section": "Intuition",
-    "text": "Intuition\nEach term\n\\[\np(i,k)p(k,j)\n\\]\nis the probability of following the particular path\n\\[\ni \\longrightarrow k \\longrightarrow j.\n\\]\nBecause the intermediate state (k) can be any state, we add the probabilities of all possible two-step paths."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/Test/index.html",
-    "href": "posts/Test/index.html",
-    "title": "Understanding Transition Probabilities",
-    "section": "",
-    "text": "Let ({X_n}_{n}) be a Markov chain.\nThe transition probability from state (i) to state (j) is defined as\n\\[\np(i,j)\n=\nP(X_{n+1}=j \\mid X_n=i).\n\\]"
-  },
-  {
-    "objectID": "posts/Test/index.html#definition",
-    "href": "posts/Test/index.html#definition",
-    "title": "Understanding Transition Probabilities",
-    "section": "",
-    "text": "Let ({X_n}_{n}) be a Markov chain.\nThe transition probability from state (i) to state (j) is defined as\n\\[\np(i,j)\n=\nP(X_{n+1}=j \\mid X_n=i).\n\\]"
-  },
-  {
-    "objectID": "posts/Test/index.html#interpretation",
-    "href": "posts/Test/index.html#interpretation",
-    "title": "Understanding Transition Probabilities",
-    "section": "Interpretation",
-    "text": "Interpretation\nThe quantity (p(i,j)) represents the probability that the chain moves to state (j) at the next step, given that its current state is (i)."
-  },
-  {
-    "objectID": "posts/Test/index.html#two-step-transition-probabilities",
-    "href": "posts/Test/index.html#two-step-transition-probabilities",
-    "title": "Understanding Transition Probabilities",
-    "section": "Two-step transition probabilities",
-    "text": "Two-step transition probabilities\nTo move from (i) to (j) in two steps, the chain may pass through any intermediate state (k). Therefore,\n\\[\np^{(2)}(i,j)\n=\n\\sum_{k\\in S}p(i,k)p(k,j).\n\\]"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mk World",
     "section": "",
-    "text": "Why Two-Step Transition Probabilities Form P²\n\n\n\nProbability\n\nMarkov Chains\n\n\n\nAn intuitive explanation of why the square of a transition matrix gives two-step transition probabilities.\n\n\n\n\n\nJul 26, 2026\n\n\nMingu Kang\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 25, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Transition Probabilities\n\n\n\nProbability\n\nMarkov Chains\n\n\n\nAn intuitive introduction to transition probabilities in Markov chains.\n\n\n\n\n\nJul 25, 2026\n\n\nMinkoo Kang\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 22, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "MK\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Mingu Kang">
-<meta name="dcterms.date" content="2026-07-26">
-<meta name="description" content="An intuitive explanation of why the square of a transition matrix gives two-step transition probabilities.">
+<meta name="author" content="MK">
 
-<title>Why Two-Step Transition Probabilities Form P² – Mk World</title>
+<title>index – Mk World</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../../styles.css">
 </head>
@@ -152,17 +121,8 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Why Two-Step Transition Probabilities Form P²</h1>
-                  <div>
-        <div class="description">
-          An intuitive explanation of why the square of a transition matrix gives two-step transition probabilities.
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Probability</div>
-                <div class="quarto-category">Markov Chains</div>
-              </div>
-                  </div>
+      
+                      </div>
   </div>
     
   
@@ -171,16 +131,10 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Mingu Kang </p>
+               <p>MK </p>
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">July 26, 2026</p>
-      </div>
-    </div>
     
       
     </div>
@@ -189,18 +143,8 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-question" id="toc-the-question" class="nav-link active" data-scroll-target="#the-question">The question</a></li>
-  <li><a href="#one-step-transition-probabilities" id="toc-one-step-transition-probabilities" class="nav-link" data-scroll-target="#one-step-transition-probabilities">One-step transition probabilities</a></li>
-  <li><a href="#two-step-transition-probabilities" id="toc-two-step-transition-probabilities" class="nav-link" data-scroll-target="#two-step-transition-probabilities">Two-step transition probabilities</a></li>
-  <li><a href="#connection-with-matrix-multiplication" id="toc-connection-with-matrix-multiplication" class="nav-link" data-scroll-target="#connection-with-matrix-multiplication">Connection with matrix multiplication</a></li>
-  <li><a href="#intuition" id="toc-intuition" class="nav-link" data-scroll-target="#intuition">Intuition</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -209,71 +153,8 @@ window.Quarto = {
 
 
 
-<section id="the-question" class="level2">
-<h2 class="anchored" data-anchor-id="the-question">The question</h2>
-<p>Let (P) be the transition matrix of a Markov chain.</p>
-<p>Why does the ((i,j))-entry of (P^2) represent the probability of moving from state (i) to state (j) in two steps?</p>
-</section>
-<section id="one-step-transition-probabilities" class="level2">
-<h2 class="anchored" data-anchor-id="one-step-transition-probabilities">One-step transition probabilities</h2>
-<p>The one-step transition probability is defined by</p>
-<p><span class="math display">\[
-p(i,j)
-=
-P(X_{n+1}=j \mid X_n=i).
-\]</span></p>
-<p>This is the probability that the chain moves from state (i) to state (j) in one step.</p>
-</section>
-<section id="two-step-transition-probabilities" class="level2">
-<h2 class="anchored" data-anchor-id="two-step-transition-probabilities">Two-step transition probabilities</h2>
-<p>Suppose that the chain begins at state (i) and reaches state (j) after two steps.</p>
-<p>At the intermediate step, the chain may visit any state (k). Therefore,</p>
-<p><span class="math display">\[
-P(X_{n+2}=j \mid X_n=i)
-=
-\sum_{k\in S}
-P(X_{n+2}=j, X_{n+1}=k \mid X_n=i).
-\]</span></p>
-<p>Using the Markov property,</p>
-<p><span class="math display">\[
-P(X_{n+2}=j \mid X_{n+1}=k, X_n=i)
-=
-P(X_{n+2}=j \mid X_{n+1}=k).
-\]</span></p>
-<p>Hence,</p>
-<p><span class="math display">\[
-p^{(2)}(i,j)
-=
-\sum_{k\in S}p(i,k)p(k,j).
-\]</span></p>
-</section>
-<section id="connection-with-matrix-multiplication" class="level2">
-<h2 class="anchored" data-anchor-id="connection-with-matrix-multiplication">Connection with matrix multiplication</h2>
-<p>By the definition of matrix multiplication,</p>
-<p><span class="math display">\[
-(P^2)_{ij}
-=
-\sum_{k\in S}P_{ik}P_{kj}.
-\]</span></p>
-<p>Since (P_{ik}=p(i,k)) and (P_{kj}=p(k,j)), we obtain</p>
-<p><span class="math display">\[
-\boxed{p^{(2)}(i,j)=(P^2)_{ij}}.
-\]</span></p>
-</section>
-<section id="intuition" class="level2">
-<h2 class="anchored" data-anchor-id="intuition">Intuition</h2>
-<p>Each term</p>
-<p><span class="math display">\[
-p(i,k)p(k,j)
-\]</span></p>
-<p>is the probability of following the particular path</p>
-<p><span class="math display">\[
-i \longrightarrow k \longrightarrow j.
-\]</span></p>
-<p>Because the intermediate state (k) can be any state, we add the probabilities of all possible two-step paths.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
