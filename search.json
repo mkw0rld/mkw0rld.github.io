@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/Test/index.html",
+    "href": "posts/Test/index.html",
+    "title": "Understanding Transition Probabilities",
+    "section": "",
+    "text": "Let ({X_n}_{n}) be a Markov chain.\nThe transition probability from state (i) to state (j) is defined as\n\\[\np(i,j)\n=\nP(X_{n+1}=j \\mid X_n=i).\n\\]"
+  },
+  {
+    "objectID": "posts/Test/index.html#definition",
+    "href": "posts/Test/index.html#definition",
+    "title": "Understanding Transition Probabilities",
+    "section": "",
+    "text": "Let ({X_n}_{n}) be a Markov chain.\nThe transition probability from state (i) to state (j) is defined as\n\\[\np(i,j)\n=\nP(X_{n+1}=j \\mid X_n=i).\n\\]"
+  },
+  {
+    "objectID": "posts/Test/index.html#interpretation",
+    "href": "posts/Test/index.html#interpretation",
+    "title": "Understanding Transition Probabilities",
+    "section": "Interpretation",
+    "text": "Interpretation\nThe quantity (p(i,j)) represents the probability that the chain moves to state (j) at the next step, given that its current state is (i)."
+  },
+  {
+    "objectID": "posts/Test/index.html#two-step-transition-probabilities",
+    "href": "posts/Test/index.html#two-step-transition-probabilities",
+    "title": "Understanding Transition Probabilities",
+    "section": "Two-step transition probabilities",
+    "text": "Two-step transition probabilities\nTo move from (i) to (j) in two steps, the chain may pass through any intermediate state (k). Therefore,\n\\[\np^{(2)}(i,j)\n=\n\\sum_{k\\in S}p(i,k)p(k,j).\n\\]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mk World",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 25, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Transition Probabilities\n\n\n\nProbability\n\nMarkov Chains\n\n\n\nAn intuitive introduction to transition probabilities in Markov chains.\n\n\n\n\n\nJul 25, 2026\n\n\nMinkoo Kang\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 22, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  }
+]

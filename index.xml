@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Mk World</title>
+<link>https://mkw0rld.github.io/</link>
+<atom:link href="https://mkw0rld.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Life, Math, and etc.</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Fri, 24 Jul 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://mkw0rld.github.io/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://mkw0rld.github.io/posts/post-with-code/</guid>
+  <pubDate>Fri, 24 Jul 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://mkw0rld.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Understanding Transition Probabilities</title>
+  <dc:creator>Minkoo Kang</dc:creator>
+  <link>https://mkw0rld.github.io/posts/Test/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<p>Let ({X_n}_{n}) be a Markov chain.</p>
+<p>The transition probability from state (i) to state (j) is defined as</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0Ap(i,j)%0A=%0AP(X_%7Bn+1%7D=j%20%5Cmid%20X_n=i).%0A"></p>
+</section>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
+<p>The quantity (p(i,j)) represents the probability that the chain moves to state (j) at the next step, given that its current state is (i).</p>
+</section>
+<section id="two-step-transition-probabilities" class="level2">
+<h2 class="anchored" data-anchor-id="two-step-transition-probabilities">Two-step transition probabilities</h2>
+<p>To move from (i) to (j) in two steps, the chain may pass through any intermediate state (k). Therefore,</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0Ap%5E%7B(2)%7D(i,j)%0A=%0A%5Csum_%7Bk%5Cin%20S%7Dp(i,k)p(k,j).%0A"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Probability</category>
+  <category>Markov Chains</category>
+  <guid>https://mkw0rld.github.io/posts/Test/</guid>
+  <pubDate>Fri, 24 Jul 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://mkw0rld.github.io/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://mkw0rld.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://mkw0rld.github.io/posts/welcome/</guid>
+  <pubDate>Tue, 21 Jul 2026 15:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
